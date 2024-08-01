@@ -10,10 +10,15 @@ p{
 
 
 /* le background pour la section du CTA */
-/* .CTA{
-   background-image: url("public/robot-petit");
-} */
-
+.CTA{
+   background-image: url('/CTA.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   z-index: 2;
+   position: relative;
+}
 
 /* le code pour faire la responsive sur tablet */
 @media screen and (max-width: 968px) {
@@ -36,7 +41,8 @@ p{
         padding: 0 5%;
         font-weight: bold;
         font-size: 20px;
-        background-color: #FFFFFF;
+        background-color: #ffff;
+        height: 100vh;
     }
 
     .hamburger{

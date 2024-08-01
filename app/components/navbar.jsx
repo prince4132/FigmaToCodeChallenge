@@ -24,7 +24,7 @@ function navbar() {
       />
       </a>
 
-      <ul className={`flex gap-5 font-bold menu ${isMenuOpen ? 'block' : 'hidden'} lg:flex`}>
+      <ul className={`flex gap-5 font-bold menu ${isMenuOpen ? 'block' : 'hidden'} bg-[rgba(255,255,255,0.9)] lg:flex`}>
         <li className='hover:border-b-2 border-b-neutral-900'>
           <a href="#">Home</a>
         </li>
