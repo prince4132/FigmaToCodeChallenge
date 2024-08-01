@@ -43,6 +43,7 @@ p{
         font-size: 20px;
         background-color: #ffff;
         height: 100vh;
+        z-index: 200000;
     }
 
     .hamburger{
@@ -129,6 +130,9 @@ p{
      .elipse{
         left: 100px;
         
+     }
+     .menu{
+      z-index: 5000000;
      }
      .AI{
         position: absolute;

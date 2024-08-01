@@ -17,7 +17,7 @@ function navbar() {
 
   return (
     
-    <nav className='flex relative nav text-[20px] text-neutral-950  border-b-[2px] mb-[30px] border-b-neutral-300 font-extrabold justify-between items-center h-auto bg-white shadow-lg px-[5%] py-10'>
+    <nav className='flex relative nav text-[20px] text-neutral-950  border-b-neutral-300 border-10 border-b mb-[30px] font-extrabold justify-between items-center h-auto bg-white shadow-sm px-[5%] py-10'>
 
       <a href="#">
       <Image src={Logo}
