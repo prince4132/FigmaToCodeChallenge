@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Categorie1 from '@/public/robot-petit2.png'
 import Categorie2 from '@/public/robot-petit.png'
 import Categorie3 from '@/public/snoop-dog.png'
+import Categorie4 from '@/public/petit-robot3.png'
 
 function Collections() {
   return (
@@ -49,7 +50,7 @@ function Collections() {
 
         <div className='w-1/4 categories-item border rounded-2xl border-neutral-300 p-3'>
 
-          <Image src={Categorie3} className='cursor-pointer object-cover w-[100%] rounded-2xl '
+          <Image src={Categorie2} className='cursor-pointer object-cover w-[100%] rounded-2xl '
           />
 
           <div className="flex justify-between mt-5 items-center">
@@ -85,7 +86,7 @@ function Collections() {
 
          <div className='w-1/4 categories-item border rounded-2xl border-neutral-300 p-3'>
 
-          <Image src={Categorie2} className='cursor-pointer object-cover w-[100%] rounded-2xl '
+          <Image src={Categorie4} className='cursor-pointer object-cover w-[100%] rounded-2xl '
           />
 
           <div className="flex justify-between mt-5 items-center">
