@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Projet d'Exercice avec Next.js et Tailwind CSS
+Ce projet est conçu pour m'exercer dans le développement web en utilisant Next.js et Tailwind CSS. Il sert de plateforme pour explorer les concepts et les outils tout en travaillant sur un exemple de gestion des dons de sang.
 
-## Getting Started
+Démarrage
+Pour commencer avec ce projet, suis ces étapes :
 
-First, run the development server:
+Installer les Dépendances :
 
-```bash
+Assure-toi d'avoir Node.js installé, puis exécute :
+
+bash
+Copier le code
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+Lancer le Serveur de Développement :
+
+Exécute la commande suivante pour démarrer le serveur local :
+
+bash
+Copier le code
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
+Accéder à l'Application :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvre http://localhost:3000 dans ton navigateur pour voir l'application en action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Personnalisation et Développement
+Modifier la Page d'Accueil :
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tu peux commencer à éditer la page d'accueil en modifiant le fichier app/page.js. Les modifications seront automatiquement reflétées dans le navigateur.
 
-## Learn More
+Styles et Design :
 
-To learn more about Next.js, take a look at the following resources:
+Ce projet utilise Tailwind CSS pour les styles et du CSS personnalisé pour ajuster l'apparence. Les styles sont définis dans les fichiers CSS associés.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+En Savoir Plus
+Ce projet est réalisé dans le cadre d'un exercice pour pratiquer le développement avec Next.js, Tailwind CSS, et du CSS personnalisé.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ressources Utilisées
+Next.js : Framework React pour le rendu côté serveur et la génération statique.
+Tailwind CSS : Framework de styles utilitaires pour une conception rapide et flexible.
+CSS Personnalisé : Utilisé pour des ajustements de styles spécifiques et des personnalisations.
