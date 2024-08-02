@@ -9,10 +9,10 @@ function hero() {
     <div className='flex relative hero my-[60px]'>
 
       <div className='w-1/2 hero1'>
-        <h1 className='text-8xl title text-neutral-950 font-bold'>
+        <h1 className='text-8xl title text-neutral-900'>
             See the NFT  new world
         </h1>
-        <p className='text-neutral-950 mt-[20px] font-bold'>
+        <p className='text-neutral-900 mt-[20px]'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ducimus ipsum quisquam illum.
         </p>
         <a href="">

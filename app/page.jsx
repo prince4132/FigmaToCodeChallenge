@@ -7,7 +7,7 @@ import CTA from "./components/CTA";
 
 export default function Home() {
   return (
-    <div className="text-neutral-900 px-[5%] font-bold flex flex-col">
+    <div className="text-neutral-900 px-[5%] flex flex-col">
       <Hero/>
       <Collections/>
       <Feature/>

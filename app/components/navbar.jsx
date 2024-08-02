@@ -17,39 +17,39 @@ function navbar() {
 
   return (
     
-    <nav className='flex relative nav text-[20px] text-neutral-950  border-b-neutral-300 border-10 border-b mb-[30px] font-extrabold justify-between items-center h-auto bg-white shadow-sm px-[5%] py-10'>
+    <nav className='flex relative nav text-[20px] text-neutral-950  border-b-neutral-300 border-10 border-b mb-[30px] justify-between items-center h-auto bg-white shadow-sm px-[5%] py-10'>
 
       <a href="#">
       <Image className={`${isMenuOpen ? 'hidden' : 'block'}`} src={Logo}
       />
       </a>
 
-      <ul className={`flex gap-5 font-bold menu ${isMenuOpen ? 'block' : 'hidden'} bg-[rgba(255,255,255,0.9)] lg:flex`}>
-        <li className='hover:border-b-2 border-b-neutral-900'>
+      <ul className={`flex gap-5 text-neutral-900 font-medium  menu ${isMenuOpen ? 'block' : 'hidden'} bg-[rgba(255,255,255,0.9)] lg:flex`}>
+        <li>
           <a href="#">Home</a>
         </li>
 
-        <li className='hover:border-b-2 border-b-neutral-900'>
+        <li>
 
           <a href="#">Top Sales</a>
         </li>
 
-        <li className='hover:border-b-2 border-b-neutral-900' >
+        <li >
 
           <a href="#">Collections</a>
         </li>
 
-        <li className='hover:border-b-2 border-b-neutral-900'>
+        <li>
 
           <a href="#">Our blog</a>
         </li>
 
-        <li className='hover:border-b-2 border-b-neutral-900'>
+        <li>
           <a href="#">About Us</a>
         </li>
 
         <button className='gap-2 sign hidden justify-between items-center'>
-          <a href="#">Sign in </a>
+          <a href="#" className='text-neutral-900 font-medium'>Sign in </a>
           <h1>|</h1>
           <a href="#" className='bg-neutral-900  hover:bg-neutral-700 text-neutral-50 p-3 rounded-full'>Connect Wallet</a>
        </button>
