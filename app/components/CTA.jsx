@@ -3,7 +3,7 @@ import React from 'react'
 function CTA() {
   return (
     <div>
-      <div   className='flex flex-col rounded-xl border min-h-[400px] CTA mt-[30px] w-full gap-[50px] items-center justify-center'>
+      <div   className='flex flex-col rounded-xl border min-h-[400px] CTA mt-[30px] w-full gap-[50px] p-[30px] items-center justify-center'>
             <h1 className='text-4xl title1 text-white'>Build your NFT profile</h1>
 
             <h2 className="text-2xl title2 text-white">Join almost 10k NFT profile on Digit !</h2>
