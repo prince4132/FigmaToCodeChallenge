@@ -13,7 +13,23 @@ const raleway2 = localFont({ src: "./assets/raleway-variablefont_wght-webfont.wo
 
 export const metadata = {
   title: "Nft Digit",
-  description: "Notre landin pge pour présenter notre technologie qui est la NFT.",
+  description: "Landng Page NFT Digit",
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: './logo.png',
+  },
 };
 
 export default function RootLayout({ children }) {
