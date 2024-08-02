@@ -9,13 +9,13 @@ function Collections() {
   return (
     <div className='Collections'>
 
-      <h1 className='text-3xl font-bold text-neutral-950'>
+      <h1 className='text-3xl font-bold coll text-neutral-950'>
         Our Collections
       </h1>
 
       <div className="flex justify-between categories items-center ">
 
-        <div className='flex justify-between shrink-0 gap-2 mt-5'>
+        <div className='flex justify-between gap-2 mt-5'>
 
             <div className='text-neutral-50 cursor-pointer text-1xl font-bold bg-neutral-900 p-5 rounded-lg'>
                 All Categories

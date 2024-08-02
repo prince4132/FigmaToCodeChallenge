@@ -127,7 +127,10 @@ p{
 
 /* le code pour faire la responsive sur mobile */
 @media screen and (max-width: 768px) {
-     .elipse{
+   .coll{
+      margin-top: 50px;
+   }
+   .elipse{
         left: 30px;
      }
      .AI{
@@ -149,7 +152,7 @@ p{
         margin-top: 100%;
      }
      .categories{
-        flex-wrap: wrap;
+        display: block;
         
      }
      .delete{
