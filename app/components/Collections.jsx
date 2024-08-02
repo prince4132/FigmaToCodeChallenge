@@ -17,23 +17,23 @@ function Collections() {
 
         <div className='flex col2  gap-[15px] mt-5'>
 
-            <div className='text-neutral-50 cursor-pointer text-1xl font-bold bg-neutral-900 p-5 rounded-lg'>
+            <div className='text-neutral-50 cursor-pointer text-1xl  bg-neutral-900 p-5 rounded-lg'>
                 All Categories
             </div>
 
-             <div className='text-neutral-900 cursor-pointer text-1xl font-bold bg-neutral-300 hover:text-neutral-50 hover:bg-neutral-500 px-4 py-5 rounded-lg'>
+             <div className='text-neutral-900 hover:bg-neutral-200 cursor-pointer text-1xl  bg-neutral-300 hover:text-neutral-900 px-4 py-5 rounded-lg'>
                 Art
             </div>
 
-            <div className='text-neutral-90 hover:text-neutral-50 hover:bg-neutral-500 cursor-pointer text-1xl font-bold bg-neutral-300  px- py-4 rounded-lg'>
+            <div className='text-neutral-900 hover:text-neutral-900 hover:bg-neutral-200 cursor-pointer text-1xl  bg-neutral-300  px- py-4 rounded-lg'>
                 Celebrities
             </div>
 
-            <div className='text-neutral-900 hover:text-neutral-50 hover:bg-neutral-500 delete cursor-pointer text-1xl font-bold bg-neutral-300  px-4 py-5 rounded-lg'>
+            <div className='text-neutral-900 hover:text-neutral-900 hover:bg-neutral-200 delete cursor-pointer text-1xl  bg-neutral-300  px-4 py-5 rounded-lg'>
                 Gaming
             </div>
 
-            <div className='text-neutral-900 cursor-pointer hover:text-neutral-50 hover:bg-neutral-500 delete text-1xl font-bold bg-neutral-300  px-4 py-5 rounded-lg'>
+            <div className='text-neutral-900 cursor-pointer hover:text-neutral-900 hover:bg-neutral-200 delete text-1xl  bg-neutral-300  px-4 py-5 rounded-lg'>
                 Sport
             </div>
         </div>
