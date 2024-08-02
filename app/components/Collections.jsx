@@ -15,7 +15,7 @@ function Collections() {
 
       <div className="flex justify-between categories items-center ">
 
-        <div className='flex justify-between gap-2 mt-5'>
+        <div className='flex  gap-[15px] mt-5'>
 
             <div className='text-neutral-50 cursor-pointer text-1xl font-bold bg-neutral-900 p-5 rounded-lg'>
                 All Categories
