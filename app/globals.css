@@ -80,8 +80,8 @@ p{
         
      }
      .AI{
-        position: absolute;
-        left: 0;
+        position: relative;
+        left: 10;
         width: 200px;
         top: 0;
      }
@@ -128,17 +128,17 @@ p{
 /* le code pour faire la responsive sur mobile */
 @media screen and (max-width: 768px) {
      .elipse{
-        left: 100px;
-        
+        left: 30px;
      }
+     .AI{
+      position: absolute;
+      left: 80px;
+      width: 200px;
+    }
      .menu{
       z-index: 5000000;
      }
-     .AI{
-        position: absolute;
-        left: 200px ;
-        width: 200px;
-     }
+    
      .title{
         font-size: 60px;
      }

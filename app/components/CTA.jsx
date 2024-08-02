@@ -9,7 +9,7 @@ function CTA() {
             <h2 className="text-2xl title2 text-white">Join almost 10k NFT profile on Digit !</h2>
 
             <a href="#">
-                <button className='bg-neutral-50 hover:bg-neutral-200 p-5 px-10 rounded-3xl  text-neutral-950'>
+                <button className='bg-neutral-50 hover:bg-neutral-200 p-5 px-10 rounded-2xl  text-neutral-950'>
                     Sign in now
                 </button>
             </a>
