@@ -60,7 +60,7 @@ function Collections() {
             <h1 className="font-bold text-xl  text-neutral-950">68</h1>
           </div>
 
-          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full font-bold text-xl text-neutral-950">
+          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full  text-xl text-neutral-950">
             Place a Bid
           </button>
 
@@ -78,7 +78,7 @@ function Collections() {
             <h1 className="font-bold text-xl  text-neutral-950">68</h1>
           </div>
 
-          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full font-bold text-xl text-neutral-950">
+          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full  text-xl text-neutral-950">
             Place a Bid
           </button>
 
@@ -96,7 +96,7 @@ function Collections() {
             <h1 className="font-bold text-xl  text-neutral-950">68</h1>
           </div>
 
-          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full font-bold text-xl text-neutral-950">
+          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full  text-xl text-neutral-950">
             Place a Bid
           </button>
 
@@ -114,7 +114,7 @@ function Collections() {
             <h1 className="font-bold text-xl  text-neutral-950">68</h1>
           </div>
 
-          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full font-bold text-xl text-neutral-950">
+          <button className="p-3 bg-white border rounded-xl mt-5 hover:bg-neutral-200 border-neutral-900 w-full  text-xl text-neutral-950">
             Place a Bid
           </button>
 
