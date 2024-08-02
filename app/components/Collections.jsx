@@ -15,31 +15,31 @@ function Collections() {
 
       <div className="flex justify-between categories items-center ">
 
-        <div className='flex  gap-[15px] mt-5'>
+        <div className='flex col2  gap-[15px] mt-5'>
 
             <div className='text-neutral-50 cursor-pointer text-1xl font-bold bg-neutral-900 p-5 rounded-lg'>
                 All Categories
             </div>
 
-             <div className='text-neutral-900 cursor-pointer text-1xl font-bold bg-neutral-300 hover:text-neutral-50 hover:bg-neutral-500 p-5 rounded-lg'>
+             <div className='text-neutral-900 cursor-pointer text-1xl font-bold bg-neutral-300 hover:text-neutral-50 hover:bg-neutral-500 px-4 py-5 rounded-lg'>
                 Art
             </div>
 
-            <div className='text-neutral-90 hover:text-neutral-50 hover:bg-neutral-500 cursor-pointer text-1xl font-bold bg-neutral-300 p-5 rounded-lg'>
+            <div className='text-neutral-90 hover:text-neutral-50 hover:bg-neutral-500 cursor-pointer text-1xl font-bold bg-neutral-300  px-5 py-4 rounded-lg'>
                 Celebrities
             </div>
 
-            <div className='text-neutral-900 hover:text-neutral-50 hover:bg-neutral-500 delete cursor-pointer text-1xl font-bold bg-neutral-300 p-5 rounded-lg'>
+            <div className='text-neutral-900 hover:text-neutral-50 hover:bg-neutral-500 delete cursor-pointer text-1xl font-bold bg-neutral-300  px-4 py-5 rounded-lg'>
                 Gaming
             </div>
 
-            <div className='text-neutral-900 cursor-pointer hover:text-neutral-50 hover:bg-neutral-500 delete text-1xl font-bold bg-neutral-300 p-5 rounded-lg'>
+            <div className='text-neutral-900 cursor-pointer hover:text-neutral-50 hover:bg-neutral-500 delete text-1xl font-bold bg-neutral-300  px-4 py-5 rounded-lg'>
                 Sport
             </div>
         </div>
 
         <div>
-            <a href="#" className='text-neutral-950 font-bold text-1xl'>View more</a>
+            <a href="#" className='text-neutral-950 lien font-bold text-1xl'>View more</a>
         </div>
 
       </div>

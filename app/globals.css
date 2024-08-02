@@ -158,6 +158,10 @@ p{
      .delete{
         display: none;
      }
+     .col2{
+      max-width: 100%;
+     }
+
      .categories-items{
       flex-wrap: wrap;
       padding: 0 5%;
