@@ -25,7 +25,7 @@ function Collections() {
                 Art
             </div>
 
-            <div className='text-neutral-90 hover:text-neutral-50 hover:bg-neutral-500 cursor-pointer text-1xl font-bold bg-neutral-300  px-3 py-4 rounded-lg'>
+            <div className='text-neutral-90 hover:text-neutral-50 hover:bg-neutral-500 cursor-pointer text-1xl font-bold bg-neutral-300  px- py-4 rounded-lg'>
                 Celebrities
             </div>
 
