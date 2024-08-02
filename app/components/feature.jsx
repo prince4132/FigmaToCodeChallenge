@@ -15,7 +15,7 @@ function feature() {
         </h1>
 
         <div className="flex feature p-3 gap-10">
-            <div className='w-1/4 p-3 feature-items  bg-neutral-300 mt-[20px] rounded-xl'>
+            <div className='w-1/4 p-3 feature-items  bg-neutral-200 mt-[20px] rounded-xl'>
                 <Image src={Feature1} className='mt-4' />
                 
                 <h2 className="text-2xl mt-2 font-bol">
@@ -29,7 +29,7 @@ function feature() {
                 
             </div>
 
-            <div className='w-1/4 p-5 feature-items bg-neutral-300 mt-[20px] rounded-xl'>
+            <div className='w-1/4 p-5 feature-items bg-neutral-200 mt-[20px] rounded-xl'>
                 <Image src={Feature2} className='mt-4' />
                 
                 <h2 className="text-2xl mt-2 font-bol">
@@ -43,7 +43,7 @@ function feature() {
                 
             </div>
 
-            <div className='w-1/4 p-5 feature-items bg-neutral-300 mt-[20px] rounded-xl'>
+            <div className='w-1/4 p-5 feature-items bg-neutral-200 mt-[20px] rounded-xl'>
                 <Image src={Feature3} className='mt-4' />
                 
                 <h2 className="text-2xl mt-2 font-bol">
@@ -57,7 +57,7 @@ function feature() {
                 
             </div>
 
-            <div className='w-1/4 p-5 feature-items bg-neutral-300 mt-[20px] rounded-xl'>
+            <div className='w-1/4 p-5 feature-items bg-neutral-200 mt-[20px] rounded-xl'>
                 <Image src={Feature4} className='mt-4' />
                 
                 <h2 className="text-2xl mt-2 font-bol">

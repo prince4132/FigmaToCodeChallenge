@@ -2,6 +2,8 @@
 import localFont from 'next/font/local'
 import "./globals.css";
 import Navbar from './components/navbar';
+import Footer from './components/footer';
+
 
 // const raleway = Raleway({ subsets: ["latin"] });
 
@@ -20,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={raleway2.className}>
         <Navbar/>
         {children}
+        <Footer/>
         </body>
     </html>
   );
