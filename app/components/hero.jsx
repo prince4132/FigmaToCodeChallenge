@@ -22,12 +22,12 @@ function hero() {
 
         <div className='hero2 w-1/2 pl-20 mt-[30px] relative flex shrink-0 gap-[20px] mb-[50px]'>
 
-            <Image className='h-[260px] elipse absolute top-[-60px] rounded-t-[80px] rounded-b-[80px] ' src={HeroImage3}
+            <Image className='h-[260px] elipse absolute top-[-60px]  rounded-b-[80px] ' src={HeroImage3}
              />
             <Image className='h-[260px] AI rounded-t-[100px] rounded-b-[100px] w-[150px] mt-[180px]' src={HeroImage1}
            />
 
-            <Image className='h-[260px] w-[150px] kong  rounded-t-[80px] rounded-b-[80px] ' src={HeroImage2}
+            <Image className='h-[260px] w-[150px] kong  rounded-t-[100px] rounded-b-[100px] ' src={HeroImage2}
              />
         
         </div>

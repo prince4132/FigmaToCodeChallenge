@@ -146,11 +146,11 @@ p{
       margin-top: 50px;
    }
    .elipse{
-        left: 30px;
+        left: 15px;
      }
      .AI{
       position: absolute;
-      left: 80px;
+      left: 20px;
       width: 200px;
     }
      .menu{
@@ -160,9 +160,9 @@ p{
      .title{
         font-size: 45px;
      }
-     .kong{
+     /* .kong{
         display: none;
-     }
+     } */
      .Collections{
         margin-top: 100%;
      }
